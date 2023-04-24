@@ -9,10 +9,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@develit-io/develitesse": "github:develit-io/develitesse",
     "@types/node": "^18",
     "nuxt": "^3.4.2"
-  },
-  "dependencies": {
-    "@develit-io/develitesse": "github:develit-io/develitesse"
   }
 }
