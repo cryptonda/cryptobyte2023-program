@@ -10,7 +10,7 @@
       <div w-100vw sticky left-0 text-center flex justify-center gap-8px text-app-blue text-xs>
         <div>Legenda:</div>
         <div flex justify-start>
-          <div bg-app-intro opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>zahájení</div>
+          <LegendItem format="intro" />
         </div>
         <div flex justify-start>
           <div bg-app-presentation opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>přednáška</div>
@@ -24,7 +24,11 @@
       </div>
     </div>
   </div>
-
+  <div>
+    <BasePopupWrapper>
+      wrapper
+    </BasePopupWrapper>
+  </div>
   <div my-16px>
     <table>
       <thead>
@@ -32,11 +36,13 @@
           <th class="w-50px">
 &nbsp;
           </th>
-          <th>Simplecoin stage</th>
-          <th>Whalebooks stage</th>
-          <th>Callisto stage</th>
-          <th>Štosuj workshops</th>
-          <th>FireFish workshops</th>
+          <th>Simplecoin<br>stage</th>
+          <th>Whalebooks<br>stage</th>
+          <th>Callisto<br>stage</th>
+          <th>Štosuj<br>workshops</th>
+          <th>FireFish<br>workshops</th>
+          <th>Foyer</th>
+          <th>Studentské nám.</th>
         </tr>
       </thead>
       <tbody>
@@ -53,8 +59,8 @@
           <Talk id="kovanda" />
           <Talk id="juran" />
           <Talk id="lucassiscze" />
-          <Talk id="w1" />
-          <Talk id="w2" />
+          <Talk id="w-bok" />
+          <Talk id="w-rydvan" />
         </tr>
         <tr>
           <th leftth twenty>
@@ -71,8 +77,8 @@
           <Talk id="niedoba" />
           <Talk id="bednar" />
           <Talk id="svarz" />
-          <Talk id="w3" />
-          <Talk id="w4" />
+          <Talk id="w-juran" />
+          <Talk id="w-varga" />
         </tr>
         <tr>
           <th leftth twenty>
@@ -89,12 +95,17 @@
           <Talk id="kicom" />
           <Talk id="petrasova" />
           <Talk id="matejka" />
-          <Talk id="w5" />
-          <Talk id="w6" />
+          <Talk id="w-dvorak" rowspan="2" />
+          <Talk id="w-zapletal" rowspan="2" />
         </tr>
         <tr>
-          <th leftth fourty>
+          <th leftth twenty>
             12:40
+          </th>
+        </tr>
+        <tr>
+          <th leftth twenty>
+            13:00
           </th>
           <td break colspan="5">
             <span sticky left-50px pl-1>Přestávka</span>
@@ -107,8 +118,8 @@
           <Talk id="panel-1" rowspan="2" />
           <Talk id="kovarik" />
           <Talk id="habovstiak" />
-          <Talk id="w7" rowspan="2" />
-          <Talk id="w8" rowspan="2" />
+          <Talk id="w-cernansky" rowspan="2" />
+          <Talk id="w-matejka" rowspan="2" />
         </tr>
         <tr>
           <th class="leftth twenty">

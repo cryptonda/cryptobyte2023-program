@@ -2,6 +2,9 @@
     "talks": [
         {
             "id": "zahajeni",
+            "stage": "simplecoin",
+            "timeStart": "10:00",
+            "duration": "40",
             "format": "intro",
             "title": "Zahájení 2. ročníku ",
             "description": "",
@@ -29,18 +32,18 @@
             "speakers":["LucassisCZE"]
         },
         {
-            "id": "w1",
+            "id": "w-bok",
             "format": "workshop",
-            "title": "Workshop 1",
-            "description":"",
-            "speakers":[""]
+            "title": "SFC modelování tokenomik",
+            "description":"Lehce odbornější ponoření do tokenomik skrz matematické modelování. Jak odhalit špatnou tokenomiku? Čemu se vyvarovat při navrhování tokenomik?",
+            "speakers":["Martin Bok"]
         },
         {
-            "id": "w2",
+            "id": "w-rydvan",
             "format": "workshop",
-            "title": "Workshop 2",
+            "title": "",
             "description":"",
-            "speakers":[""]
+            "speakers":["Jan Rydvan - Blockchain Legal"]
         },
         
         
@@ -67,18 +70,18 @@
             "speakers":["Radek Švarz"]
         },
         {
-            "id": "w3",
+            "id": "w-juran",
             "format": "workshop",
-            "title": "Workshop 3",
-            "description":"",
-            "speakers":[""]
+            "title": "Workshop navazující na přednášku \"Jak spustit kryptoprojekt?\"",
+            "description":"Vaše otázky a Kirillovy odpovědi off-record.",
+            "speakers":["Kirill Juran"]
         },
         {
-            "id": "w4",
+            "id": "w-varga",
             "format": "workshop",
-            "title": "Workshop 4",
+            "title": "",
             "description":"",
-            "speakers":[""]
+            "speakers":["Ondřej Varga"]
         },
        
         
@@ -106,31 +109,34 @@
             "speakers":["Martin Matějka"]
         },
         {
-            "id": "w5",
+            "id": "w-dvorak",
             "format": "workshop",
-            "title": "Workshop 5",
-            "description":"",
-            "speakers":[""]
+            "title": "Lightning vychytávky - LN adresy, LNURL, NFC karty",
+            "description":"Vychytávky, které nám Lightning network nabízí. Přijímání SATů (bitcoinu) na adresu např. \"gorrdy@lnbc.cz\" pro opakované použití. Dotkneme se, pro co se dá využít nadstavba nad Lightningem LNURL a demonstrujeme, jak jednoduché je platit bitcoinovou platební kartou, kterou si zájemci budou moci i vyrobit a napárovat na svoji peněženku (NFC karta bude k dostání na místě).",
+            "speakers":["Jan 'Gorrdy' Dvořák"]
         },
         {
-            "id": "w6",
+            "id": "w-zapletal",
             "format": "workshop",
-            "title": "Workshop 6",
-            "description":"",
-            "speakers":[""]
+            "title": "Zabezpečení vašich kryptoměn",
+            "description":" Praktický workshop o používání hardwarové peněženky Trezor. Praktický průvodce používání peněženky Trezor a pokročilých funkcí pro maximální zabezpečení vašich kryptoměn. Vhodné pro začátečníky i pokročilé uživatele, kteří chtějí naplno využít potenciál self-custody řešení.",
+            "speakers":["Michal Zapletal"]
         },
+        
 
 
         {
             "id": "panel-1",
             "format": "panel",
-            "title": "Panel 1",
+            "title": "Regulace, banky a krypto v ČR",
             "description":"",
             "speakers":[
-                "speaker 1",
-                "speaker 2",
-                "speaker 3"
-            ]
+                "Lukáš Kovanda",
+                "Pavel Niedoba",
+                "Kirill Juran",
+                "Alex Pilař"
+            ],
+            "moderator": "Matouš Ledvina"
         },
         {
             "id": "kovarik",
@@ -147,19 +153,20 @@
             "speakers":["Martin Habovštiak"]
         },
         {
-            "id": "w7",
+            "id": "w-cernansky",
             "format": "workshop",
-            "title": "Workshop 7",
-            "description":"",
-            "speakers":[""]
+            "title": "Pionýrské testování produktu Simplecoin Wallet",
+            "description":"Směnárna Simplecoin spouští nový produkt Simplecoin Wallet a zajímá nás, co si o něm myslí budoucí uživatelé - jak snadno se jim ovládá a co mu chybí. Na workshopu si tento produkt vyzkoušíte ze svého telefonu nebo na našem počítači. Není potřeba mít žádnou peněženku, vlastní krypto ani nebudeme chtít žádné osobní údaje. Nemusíte mít ani žádnou velkou znalost z oblasti krypta - stačí jen zájem o obchodování a o pionýrské testování nového produktu.",
+            "speakers":["Aleš Čerňanský"]
         },
         {
-            "id": "w8",
+            "id": "w-matejka",
             "format": "workshop",
-            "title": "Workshop 8",
-            "description":"",
-            "speakers":[""]
+            "title": "Firefish protocol -  deep dive",
+            "description":"Workshop zaměřený na technický návrh Firefish protokolu, který umožňuje použití Bitcoinu jako superkolaterálu. Podrobně se podíváme na jeho bezpečnostní model a rozdíly oproti jiným přístupům.",
+            "speakers":["Martin Matějka", "Jan Václavek"]
         },
+        
         
         
         {
@@ -284,5 +291,53 @@
             "speakers":[""]
         }
         
+    ],
+    "stages": [
+        {
+            "id": "simplecoin",
+            "name": "Simplecoin stage"
+        },
+        {
+            "id": "whalebooks",
+            "name": "Simplecoin stage"
+        },
+        {
+            "id": "callisto",
+            "name": "Callisto stage"
+        },
+        {
+            "id": "stosuj",
+            "name": "Štosuj workshops"
+        },
+        {
+            "id": "firefish",
+            "name": "FireFish workshops"
+        },
+        {
+            "id": "foyer",
+            "name": "Foyer"
+        },
+        {
+            "id": "studentske",
+            "name": "Studentské nám."
+        }
+    ],
+    "formats": [
+        {
+            "id": "intro",
+            "name": "zahájení"
+        },
+        {
+            "id": "panel",
+            "name": "panel"
+        },
+        {
+            "id": "presentation",
+            "name": "přednáška"
+        },
+        {
+            "id": "workshop",
+            "name": "workshop"
+        }
     ]
 }

@@ -2,12 +2,16 @@ lockfileVersion: 5.4
 
 specifiers:
   '@develit-io/develitesse': github:develit-io/develitesse
+  '@iconify-json/mdi': ^1.1.50
   '@types/node': ^18
+  bottom-sheet-vue3: ^2.0.5
   nuxt: ^3.4.2
 
 devDependencies:
   '@develit-io/develitesse': github.com/develit-io/develitesse/7b3ad1874532d0160eeb56eb832497247e35ad41_nuxt@3.4.2
+  '@iconify-json/mdi': 1.1.50
   '@types/node': 18.16.0
+  bottom-sheet-vue3: 2.0.5
   nuxt: 3.4.2_@types+node@18.16.0
 
 packages:
@@ -734,6 +738,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/mdi/1.1.50:
+    resolution: {integrity: sha512-SgbT5w5eHCdOG74ZWPz7HlTGk6VsifIJhNi6lAsxj/5Nlqt6Cz4LlQmSa9eecU9p075Jub2aAx/o7YI+GCahRQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify/types/2.0.0:
@@ -2445,6 +2455,12 @@ packages:
 
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+    dev: true
+
+  /bottom-sheet-vue3/2.0.5:
+    resolution: {integrity: sha512-OtK+Ti6kfqh+MXiQREeQ8+Fd7Bow5vewCF+B0U1r1McCNKID+N+upcVIWQPCzcUKRLjS/WIJV/rEfX+4IQ1BQQ==}
+    peerDependencies:
+      vue: ^3.2.45
     dev: true
 
   /brace-expansion/1.1.11:

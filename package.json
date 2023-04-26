@@ -10,7 +10,9 @@
   },
   "devDependencies": {
     "@develit-io/develitesse": "github:develit-io/develitesse",
+    "@iconify-json/mdi": "^1.1.50",
     "@types/node": "^18",
+    "bottom-sheet-vue3": "^2.0.5",
     "nuxt": "^3.4.2"
   }
 }

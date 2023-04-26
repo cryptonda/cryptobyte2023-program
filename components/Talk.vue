@@ -1,15 +1,6 @@
 <script setup lang="ts">
+import type { Talk, talkFormat } from 'composables/types'
 import data from '@/assets/data.json'
-
-export type talkFormat = 'intro' | 'presentation' | 'workshop' | 'panel' | 'break'
-
-interface Talk {
-  id: string
-  format: string
-  title: string
-  description: string
-  speakers: string[]
-}
 
 const props = defineProps<{
   id: string
@@ -26,25 +17,38 @@ const talkStyle: { [key in talkFormat]: string } = {
   panel: 'bg-app-panel',
   break: 'bg-gray',
 }
+
+const [isOpen, toggleOpen] = useToggle(false)
 </script>
 
 <template>
   <td
-    v-if="talk" max-w-150px
-    font-exo rounded-1 text-sm :class="talkStyle[talk.format]" bg-opacity-30 hover:bg-opacity-40
-    p-2 whitespace-normal align-top
+    v-if="talk"
+    min-w-200px font-exo
+    rounded-1 text-sm :class="talkStyle[talk.format]" bg-opacity-30 hover:bg-opacity-40 p-2
+    whitespace-normal align-top cursor-pointer @click="toggleOpen()"
   >
-    <div v-if="talk.speakers.length" mb-2>
-      {{ talk.speakers.join(", ") }}
-    </div>
     <div v-if="talk.title" font-bold mb-2>
       {{ talk.title }}
     </div>
+    <ul v-if="talk.speakers.length" mb-2>
+      <li v-for="speaker in talk.speakers" :key="speaker">
+        <UnoIcon i-mdi-user aria-hidden="false" inline-block relative top-2px /> {{ speaker }}
+      </li>
+    </ul>
+    <ul v-if="talk.moderator" mb-2>
+      <li>
+        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px />moderátor {{ talk.moderator }}
+      </li>
+    </ul>
     <p v-if="talk.description" text-xs>
-      {{ talk.description }}
+      {{ shortenText(talk.description) }}
     </p>
   </td>
   <td v-else class="error">
     Nenalezeno
   </td>
+  <BasePopupWrapper v-model="isOpen">
+    <TalkSheet :talk="talk" />
+  </BasePopupWrapper>
 </template>
