@@ -1,0 +1,288 @@
+{
+    "talks": [
+        {
+            "id": "zahajeni",
+            "format": "intro",
+            "title": "Zahájení 2. ročníku ",
+            "description": "",
+            "speakers":[]
+        },
+        {
+            "id": "kovanda",
+            "format": "presentation",
+            "title": "Bitcoin jako pojistka před krizí",
+            "description": "Rozbor reakce bitcoinu na letošní březnovou bankovní paniku v USA a pád Credit Suisse a co to pro rozvoj bitcoinu znamená z kratkodobé i dlouhodobé perspektivy.",
+            "speakers":["Lukáš Kovanda"]
+        },
+        {
+            "id": "juran",
+            "format": "presentation",
+            "title": "",
+            "description":"",
+            "speakers":["Kirill Juran"]
+        },
+        {
+            "id": "lucassiscze",
+            "format": "presentation",
+            "title": "Absolute Wallet",
+            "description":"Seznámení s multi funkční kryptopeněženkou.",
+            "speakers":["LucassisCZE"]
+        },
+        {
+            "id": "w1",
+            "format": "workshop",
+            "title": "Workshop 1",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w2",
+            "format": "workshop",
+            "title": "Workshop 2",
+            "description":"",
+            "speakers":[""]
+        },
+        
+        
+        
+        {
+            "id": "niedoba",
+            "format": "presentation",
+            "title": "Politický rozměr bitcoinu",
+            "description":"Kryptoměny spustily před pár lety legistativní lavinu. O tom jak rychle přicházíme o finanční svobody a proč v kryptoměnách nejde na prvním místě o peníze.",
+            "speakers":["Pavel Niedoba"]
+        },
+        {
+            "id": "bednar",
+            "format": "presentation",
+            "title": "Bitcoin ako cypherpunk technológia",
+            "description":"Prečo a ako Bitcoin zvyšuje našu slobodu v reálnom svete? Ako je možné, že nejaký softvér má dopad na slobodu vo fyzickom svete? A ako to súvisí s reguláciami a prípadne súkromím?",
+            "speakers":["Juraj Bednár"]
+        },
+        {
+            "id": "svarz",
+            "format": "presentation",
+            "title": "Jak přijít o peníze",
+            "description":"Slepé podepisování transakcí způsobilo ztráty uživatelům v řádech milionů USD. Probereme útoky i možná řešení při práci v De-Fi a NFTs.",
+            "speakers":["Radek Švarz"]
+        },
+        {
+            "id": "w3",
+            "format": "workshop",
+            "title": "Workshop 3",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w4",
+            "format": "workshop",
+            "title": "Workshop 4",
+            "description":"",
+            "speakers":[""]
+        },
+       
+        
+
+
+        {
+            "id": "kicom",
+            "format": "presentation",
+            "title": "Maximalisticky realismus",
+            "description":"Jak se vyvíjel můj pohled na Bitcoin a altcoiny od seznamení v roce 2017 až po současnost. Kdy se dočkáme masové adopce a hyperbitcoinizace?",
+            "speakers":["Jakub Kicom Vejmola"]
+        },
+        {
+            "id": "petrasova",
+            "format": "presentation",
+            "title": "Vexl v praxi: Najčastejšie mýty o Vexli a bitcoine bez KYC",
+            "description":"Už je to skoro rok od spustenia Vexlu. Stále sa však objavujú pochybnosti, či už o appke samotnej, alebo vôbec o potrebe existencie takejto služby. Na tejto prednaške by som rada jednotlivé mýty adresovala a dodala publiku dôvod i odvahu vyskušať si bitcoin tak, ako bol zamýšlaný - peer to peer a bez KYC.",
+            "speakers":["Lea Petrášová"]
+        },
+        {
+            "id": "matejka",
+            "format": "presentation",
+            "title": "Bitcoin-backed living",
+            "description":"Využití Bitcoinu jako finančního kolaterálu a jak může tento přístup přispět k rozšíření osobní a finanční nezávislosti.",
+            "speakers":["Martin Matějka"]
+        },
+        {
+            "id": "w5",
+            "format": "workshop",
+            "title": "Workshop 5",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w6",
+            "format": "workshop",
+            "title": "Workshop 6",
+            "description":"",
+            "speakers":[""]
+        },
+
+
+        {
+            "id": "panel-1",
+            "format": "panel",
+            "title": "Panel 1",
+            "description":"",
+            "speakers":[
+                "speaker 1",
+                "speaker 2",
+                "speaker 3"
+            ]
+        },
+        {
+            "id": "kovarik",
+            "format": "presentation",
+            "title": "HODL v bull marketu, nebo brát zisky?",
+            "description":"S přicházejícím bull marketem nastává otázka - kdy a jak budu chtít odprodávat? Obecná odpověď neexistuje. Pojďme se ale pobavit o možných scénářích a životních situacích, kdy postupný výběr zisku dává smysl. A jak to nejlépe automatizovat.",
+            "speakers":["Luboš Kovařík"]
+        },
+        {
+            "id": "habovstiak",
+            "format": "presentation",
+            "title": "Smart kontrakty nad Bitcoinom",
+            "description":"Neprajníci Bitcoinu tvrdia že nad Bitcoinom sa smart kontrakty robiť nedajú a nad inými kryptomenami dajú. To však vôbec nie je pravda. Pozrieme sa na to ako sa dajú robiť kontrakty nad Bitcoinom a porovnáme ich dizajn s inými kryptomenami.",
+            "speakers":["Martin Habovštiak"]
+        },
+        {
+            "id": "w7",
+            "format": "workshop",
+            "title": "Workshop 7",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w8",
+            "format": "workshop",
+            "title": "Workshop 8",
+            "description":"",
+            "speakers":[""]
+        },
+        
+        
+        {
+            "id": "panel-2",
+            "format": "panel",
+            "title": "Panel 2",
+            "description":"",
+            "speakers":[
+                "speaker 1",
+                "speaker 2",
+                "speaker 3"
+            ]
+        },
+        {
+            "id": "kryptomates",
+            "format": "presentation",
+            "title": "Nostr - o co jde a jak funguje",
+            "description":"Představení protokolu Nostr a jeho využití v decentralizovaných sociálních sítích a adopci Lightning Network",
+            "speakers":["Krypto Mates"]
+        },
+        {
+            "id": "novak",
+            "format": "presentation",
+            "title": "Budoucnost Lightning Network",
+            "description":"Lightning Network je bez debat revoluční technologií. Je ale férové uznat, že zatím má určité mouchy. V této přednášce se netechnicky podíváme na to, jak by mohly platby přes lightning vypadat za 5 let, na čem se aktuálně pracuje a jaké novinky nás čekají.",
+            "speakers":["Michal Novák"]
+        },
+        {
+            "id": "w9",
+            "format": "workshop",
+            "title": "Workshop 9",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w10",
+            "format": "workshop",
+            "title": "Workshop 10",
+            "description":"",
+            "speakers":[""]
+        },
+
+
+        {
+            "id": "panel-3",
+            "format": "panel",
+            "title": "Panel 3",
+            "description":"",
+            "speakers":[
+                "speaker 1",
+                "speaker 2",
+                "speaker 3"
+            ]
+        },
+
+
+        {
+            "id": "tetek",
+            "format": "presentation",
+            "title": "Bitcoin v Africe",
+            "description":"Adopce bitcoinu v Africe - jak probíhá? Jaké má překážky a co je naopak jednodušší? ",
+            "speakers":["Josef Tětek"]
+        },
+        {
+            "id": "kyrsch",
+            "format": "presentation",
+            "title": "",
+            "description":"",
+            "speakers":["Marek Kyrsch"]
+        },
+        {
+            "id": "w11",
+            "format": "workshop",
+            "title": "Workshop 11",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w12",
+            "format": "workshop",
+            "title": "Workshop 12",
+            "description":"",
+            "speakers":[""]
+        },
+
+
+
+
+        {
+            "id": "luptak",
+            "format": "presentation",
+            "title": "",
+            "description":"",
+            "speakers":["Pavol Lupták"]
+        },
+        {
+            "id": "bednar2",
+            "format": "presentation",
+            "title": "",
+            "description":"",
+            "speakers":["Juraj Bednár"]
+        },
+        {
+            "id": "bures",
+            "format": "presentation",
+            "title": "",
+            "description":"",
+            "speakers":["Vladimír Bureš"]
+        },
+        {
+            "id": "w13",
+            "format": "workshop",
+            "title": "Workshop 13",
+            "description":"",
+            "speakers":[""]
+        },
+        {
+            "id": "w14",
+            "format": "workshop",
+            "title": "Workshop 14",
+            "description":"",
+            "speakers":[""]
+        }
+        
+    ]
+}
