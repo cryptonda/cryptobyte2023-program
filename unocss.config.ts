@@ -16,6 +16,7 @@ export default defineConfig({
     { break: 'bg-#ddd font-exo text-13px font-light pt-2 align-top' },
     { twenty: 'h-40px' },
     { fourty: 'h-120px' },
+    { dashedlink: 'text-app-blue underline underline-dashed underline-offset-4 underline-gray-500 cursor-pointer' },
   ],
   presets: [
     presetUno(),

@@ -7,6 +7,10 @@
       <h1 w-100vw sticky left-0 font-exo text-2xl md:text-4xl text-center mb-16px>
         Program 2023
       </h1>
+      <div w-100vw sticky left-0 flex gap-4 justify-center my-4>
+        <Printer />
+        <QrCode />
+      </div>
       <div w-100vw sticky left-0 text-center flex flex-wrap justify-center gap-8px text-app-blue text-xs>
         <div flex justify-start>
           <LegendItem format="intro" />
