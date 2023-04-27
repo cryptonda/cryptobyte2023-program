@@ -26,8 +26,8 @@
             "start": "10:00",
             "length": "40",
             "format": "presentation",
-            "title": "",
-            "description":"",
+            "title": "Jak spustit krypto projekt?",
+            "description":"Spuštění krypto projektu, regulatorní problémy, daňové otázky, … Jaká je aktuální praxe.",
             "speakers":["Kirill Juran"]
         },
         {
@@ -59,6 +59,26 @@
             "title": "",
             "description":"",
             "speakers":["Jan Rydvan - Blockchain Legal"]
+        },
+        {
+            "id": "foyer-1",
+            "stage": "foyer",
+            "start": "10:00",
+            "length": "180",
+            "format": "side",
+            "title": "Knižní novinky",
+            "description":"Letos je CryptoByte tak trochu jako knižní veletrh :-) Mezi stánky Braiins a SatoshiLabs si můžete nechat podepsat knihy hned od 3 autorů: Josef Tětek - není třeba představovat :-) Michal Novák - novinka \"Lightning Network\" a Kamil Bouška - autor zbrusu nové knihy \"Velká kniha o bitcoinu a kryptoměnách\". Křest v režii Braiins Publishing je naplnánovaný na 12.4. večer v kině Varšava od 17:00 - vstup a nějaké to pivko zdarma!",
+            "speakers":[]
+        },
+        {
+            "id": "namesti",
+            "stage": "namesti",
+            "start": "10:00",
+            "length": "460",
+            "format": "side",
+            "title": "Zábava a občerstvení",
+            "description":"Před budovou G najdete po celý den: Jídlo z foodtrucků Možnost vyzkoušet si různé modely eletrokoloběžek značky VSETT. Kouknout se, jak se pálí laserem do dřeva, kovu i papírového kartonu a možná si i něco vypáleného odnést na památku.",
+            "speakers":[]
         },
         
         
@@ -168,7 +188,16 @@
             "speakers":["Michal Zapletal"]
         },
         
-
+        {
+            "id": "foyer-2",
+            "stage": "foyer",
+            "start": "13:00",
+            "length": "180",
+            "format": "side",
+            "title": "Mind ball",
+            "description":"Kromě lehkého občerstvení a stánků partnerů konference si zde můžete zahrát Mindball - unikátní hra, při které musíte zapojit mozek. Vyhrává ten, kdo lépe ovládne své mozkové vlny a přetlačí kuličku k soupeři. ",
+            "speakers":[]
+        },
 
         {
             "id": "panel-1",
@@ -187,14 +216,14 @@
             "moderator": "Matouš Ledvina"
         },
         {
-            "id": "kovarik",
+            "id": "kyrsch",
             "stage": "whalebooks",
             "start": "13:20",
             "length": "40",
             "format": "presentation",
-            "title": "HODL v bull marketu, nebo brát zisky?",
-            "description":"S přicházejícím bull marketem nastává otázka - kdy a jak budu chtít odprodávat? Obecná odpověď neexistuje. Pojďme se ale pobavit o možných scénářích a životních situacích, kdy postupný výběr zisku dává smysl. A jak to nejlépe automatizovat.",
-            "speakers":["Luboš Kovařík"]
+            "title": "Lightning Network v adopci kryptoměn",
+            "description":"rychlí Lightning Network adopci kryptoměn. Co může každý z nás udělat pro adopci kryptoměn. Jaké jsou legislativní překážky. Co dalšího brání rychlejšímu používání kryptoměn mainstreamem.",
+            "speakers":["Marek Kyrsch"]
         },
         {
             "id": "habovstiak",
@@ -235,69 +264,55 @@
             "start": "14:40",
             "length": "60",
             "format": "panel",
-            "title": "Panel 2",
+            "title": "Self-custody life - lze si dnes ještě udržet soukromí?",
             "description":"",
             "speakers":[
-                "speaker 1",
-                "speaker 2",
-                "speaker 3"
-            ]
+                "Lea Petrášová",
+                "Josef Tětek",
+                "Juraj Bednár",
+                "Jakub Kicom Vejmola"
+            ],
+            "moderator": "Kristian Csepcsar"
         },
         {
-            "id": "kryptomates",
+            "id": "kovarik",
             "stage": "whalebooks",
             "start": "14:40",
             "length": "40",
             "format": "presentation",
-            "title": "Nostr - o co jde a jak funguje",
-            "description":"Představení protokolu Nostr a jeho využití v decentralizovaných sociálních sítích a adopci Lightning Network",
-            "speakers":["Krypto Mates"]
+            "title": "HODL v bull marketu, nebo brát zisky?",
+            "description":"S přicházejícím bull marketem nastává otázka - kdy a jak budu chtít odprodávat? Obecná odpověď neexistuje. Pojďme se ale pobavit o možných scénářích a životních situacích, kdy postupný výběr zisku dává smysl. A jak to nejlépe automatizovat.",
+            "speakers":["Luboš Kovařík"]
         },
         {
-            "id": "novak",
+            "id": "bures",
             "stage": "callisto",
             "start": "14:40",
             "length": "40",
             "format": "presentation",
-            "title": "Budoucnost Lightning Network",
-            "description":"Lightning Network je bez debat revoluční technologií. Je ale férové uznat, že zatím má určité mouchy. V této přednášce se netechnicky podíváme na to, jak by mohly platby přes lightning vypadat za 5 let, na čem se aktuálně pracuje a jaké novinky nás čekají.",
-            "speakers":["Michal Novák"]
+            "title": "",
+            "description":"",
+            "speakers":["Vladimír Bureš"]
         },
         {
-            "id": "w9",
+            "id": "w-varga-2",
             "stage": "stosuj",
             "start": "14:40",
             "length": "40",
             "format": "workshop",
-            "title": "Workshop 9",
+            "title": "",
             "description":"",
-            "speakers":[""]
+            "speakers":["Ondřej Varga"]
         },
         {
-            "id": "w10",
+            "id": "w-cerny",
             "stage": "firefish",
             "start": "14:40",
             "length": "40",
             "format": "workshop",
-            "title": "Workshop 10",
-            "description":"",
-            "speakers":[""]
-        },
-
-
-        {
-            "id": "panel-3",
-            "stage": "callisto",
-            "start": "15:40",
-            "length": "60",
-            "format": "panel",
-            "title": "Panel 3",
-            "description":"",
-            "speakers":[
-                "speaker 1",
-                "speaker 2",
-                "speaker 3"
-            ]
+            "title": "Vybíráme hardware na stavbu bitcoinového nodu",
+            "description":"Chtěli byste si postavit lightningový node, ale Raspberry Pi 4 vám připadá pomalé a drahé? Existuje alternativa v podobě minipočítačů. Ukážeme si, podle čeho se orientovat při výběru SSD, procesoru, operační paměti, WiFi a jak optimalizovat spotřebu. Součástí workshopu bude ukázka mini počítačů Intel NUC, HP Mini a Lenovo Tiny.",
+            "speakers":["Jan Černý"]
         },
 
 
@@ -312,34 +327,44 @@
             "speakers":["Josef Tětek"]
         },
         {
-            "id": "kyrsch",
+            "id": "kryptomates",
             "stage": "whalebooks",
             "start": "16:00",
             "length": "40",
             "format": "presentation",
-            "title": "",
-            "description":"",
-            "speakers":["Marek Kyrsch"]
+            "title": "Nostr - o co jde a jak funguje",
+            "description":"Představení protokolu Nostr a jeho využití v decentralizovaných sociálních sítích a adopci Lightning Network",
+            "speakers":["Krypto Mates"]
         },
         {
-            "id": "w11",
+            "id": "novak",
+            "stage": "callisto",
+            "start": "16:00",
+            "length": "40",
+            "format": "presentation",
+            "title": "Budoucnost Lightning Network",
+            "description":"Lightning Network je bez debat revoluční technologií. Je ale férové uznat, že zatím má určité mouchy. V této přednášce se netechnicky podíváme na to, jak by mohly platby přes lightning vypadat za 5 let, na čem se aktuálně pracuje a jaké novinky nás čekají.",
+            "speakers":["Michal Novák"]
+        },
+        {
+            "id": "w-kovarik",
             "stage": "stosuj",
             "start": "16:00",
             "length": "40",
             "format": "workshop",
-            "title": "Workshop 11",
-            "description":"",
-            "speakers":[""]
+            "title": "Automatizované strategie na Štosuj.cz",
+            "description":"Nejen DCA, ale nově také grid trading a další chystané strategie pro jednoduché automatické obchody. Víš, jak přemýšlet nad svojí exit strategií? Přijď si pro inspiraci.",
+            "speakers":["Luboš Kovařík"]
         },
         {
-            "id": "w12",
+            "id": "w-zapletal-2",
             "stage": "firefish",
             "start": "16:00",
             "length": "40",
             "format": "workshop",
-            "title": "Workshop 12",
-            "description":"",
-            "speakers":[""]
+            "title": "Vexl: cesta k jednoduchému a diskrétnímu obchodování s Bitcoinem",
+            "description":"Úvod do aplikace Vexl a její použití. Nastavení účtu, navigace uživatelským rozhraním a tipy pro bezpečné obchodování jak naživo, tak online. Q&A. Vhodné spíše pro začátečníky.",
+            "speakers":["Michal Zapletal"]
         },
 
 
@@ -351,8 +376,8 @@
             "start": "17:00",
             "length": "40",
             "format": "presentation",
-            "title": "",
-            "description":"",
+            "title": "Príručka globálneho oportunistu",
+            "description":"Ako a kde sa najlepšie decentralizovať pomocou „Teórie vlajky“ do praxe je cieľom všetkých stálych cestovateľov, aby sa čo najviac oslobodili od jedného systému a mali čo najpríjemnejší, najlacnejší a hlavne slobodný život bez byrokratov a nezmyslov.",
             "speakers":["Pavol Lupták"]
         },
         {
@@ -366,24 +391,28 @@
             "speakers":["Juraj Bednár"]
         },
         {
-            "id": "bures",
+            "id": "panel-3",
             "stage": "callisto",
             "start": "17:00",
-            "length": "40",
-            "format": "presentation",
-            "title": "",
+            "length": "60",
+            "format": "panel",
+            "title": "Vše, co jste chtěli vědět o Lightning Network",
             "description":"",
-            "speakers":["Vladimír Bureš"]
+            "speakers":[
+                "Michal Novák",
+                "Martin Habovštiak",
+                "Jan 'Gorrdy' Dvořák"
+            ]
         },
         {
-            "id": "w13",
+            "id": "w-bures",
             "stage": "stosuj",
             "start": "17:00",
-            "length": "40",
+            "length": "60",
             "format": "workshop",
-            "title": "Workshop 13",
-            "description":"",
-            "speakers":[""]
+            "title": "Workshop navazující na přednášku \"Bitcoin v Zenu\"",
+            "description":"Praktické pokračování přednášky",
+            "speakers":["Vladimír Bureš"]
         },
         {
             "id": "w14",
@@ -393,7 +422,7 @@
             "format": "workshop",
             "title": "Workshop 14",
             "description":"",
-            "speakers":[""]
+            "speakers":[]
         }
         
     ],
@@ -423,8 +452,8 @@
             "name": "Foyer"
         },
         {
-            "id": "studentske",
-            "name": "Studentské nám."
+            "id": "namesti",
+            "name": "Univerzitní nám."
         }
     ],
     "formats": [
@@ -434,7 +463,7 @@
         },
         {
             "id": "panel",
-            "name": "panel"
+            "name": "panelová diskuse"
         },
         {
             "id": "presentation",
@@ -443,6 +472,10 @@
         {
             "id": "workshop",
             "name": "workshop"
+        },
+        {
+            "id": "side",
+            "name": "doprovodný program"
         }
     ]
 }

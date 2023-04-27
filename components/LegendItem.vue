@@ -17,11 +17,12 @@ const formatStyle: { [key in talkFormat]: string } = {
   workshop: 'bg-app-workshop',
   panel: 'bg-app-panel',
   break: 'bg-gray',
+  side: 'bg-app-side',
 }
 </script>
 
 <template>
   <div flex gap-1>
-    <div :class="formatStyle[props.format]" bg-app-intro opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>{{ formatName }}</div>
+    <div :class="formatStyle[props.format]" opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>{{ formatName }}</div>
   </div>
 </template>

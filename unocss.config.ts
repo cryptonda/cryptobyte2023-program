@@ -39,6 +39,7 @@ export default defineConfig({
         presentation: '#282b57',
         workshop: '#0284c7',
         panel: '#16a34a',
+        side: '#7dd3fc',
       },
     },
   },

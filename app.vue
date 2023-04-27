@@ -1,5 +1,5 @@
 <template>
-  <div min-w-760px>
+  <div min-w-1500px>
     <div>
       <div w-100vw sticky left-0 text-center mt-8px>
         <img src="/public/cb-logo.svg" w-150px md:w-250px lg:w-300px alt="CryptoByte logo" mx-auto>
@@ -7,8 +7,7 @@
       <h1 w-100vw sticky left-0 font-exo text-2xl md:text-4xl text-center mb-16px>
         Program 2023
       </h1>
-      <div w-100vw sticky left-0 text-center flex justify-center gap-8px text-app-blue text-xs>
-        <div>Legenda:</div>
+      <div w-100vw sticky left-0 text-center flex flex-wrap justify-center gap-8px text-app-blue text-xs>
         <div flex justify-start>
           <LegendItem format="intro" />
         </div>
@@ -20,6 +19,9 @@
         </div>
         <div flex justify-start>
           <LegendItem format="workshop" />
+        </div>
+        <div flex justify-start>
+          <LegendItem format="side" />
         </div>
       </div>
     </div>
@@ -42,7 +44,7 @@
           <th>Štosuj<br>workshops</th>
           <th>FireFish<br>workshops</th>
           <th>Foyer</th>
-          <th>Studentské<br>nám.</th>
+          <th>Univerzitní<br>nám.</th>
         </tr>
       </thead>
       <tbody>
@@ -61,6 +63,8 @@
           <Talk id="lucassiscze" />
           <Talk id="w-bok" />
           <Talk id="w-rydvan" />
+          <Talk id="foyer-1" />
+          <Talk id="namesti" />
         </tr>
         <tr>
           <th leftth twenty>
@@ -110,13 +114,14 @@
           <td break colspan="5">
             <span sticky left-50px pl-1>Přestávka</span>
           </td>
+          <Talk id="foyer-2" />
         </tr>
         <tr>
           <th class="leftth h40">
             13:20
           </th>
           <Talk id="panel-1" />
-          <Talk id="kovarik" />
+          <Talk id="kyrsch" />
           <Talk id="habovstiak" />
           <Talk id="w-cernansky" />
           <Talk id="w-matejka" />
@@ -139,10 +144,10 @@
             14:40
           </th>
           <Talk id="panel-2" />
-          <Talk id="kryptomates" />
-          <Talk id="novak" />
-          <Talk id="w9" />
-          <Talk id="w10" />
+          <Talk id="kovarik" />
+          <Talk id="bures" />
+          <Talk id="w-varga-2" />
+          <Talk id="w-cerny" />
         </tr>
         <tr>
           <th class="leftth">
@@ -156,18 +161,19 @@
           <th class="leftth twenty">
             15:40
           </th>
-          <td colspan="2" />
-          <Talk id="panel-3" />
-          <td colspan="2" />
+          <td break colspan="5">
+            <span sticky left-50px pl-1>Přestávka</span>
+          </td>
         </tr>
         <tr>
           <th class="leftth fourty">
             16:00
           </th>
           <Talk id="tetek" />
-          <Talk id="kyrsch" />
-          <Talk id="w11" />
-          <Talk id="w12" />
+          <Talk id="kryptomates" />
+          <Talk id="novak" />
+          <Talk id="w-kovarik" />
+          <Talk id="w-zapletal-2" />
         </tr>
         <tr>
           <th class="leftth twenty">
@@ -183,9 +189,17 @@
           </th>
           <Talk id="luptak" />
           <Talk id="bednar2" />
-          <Talk id="bures" />
-          <Talk id="w13" />
+          <Talk id="panel-3" />
+          <Talk id="w-bures" />
           <Talk id="w14" />
+        </tr>
+        <tr>
+          <th leftth twenty>
+            17:40
+          </th>
+          <td colspan="2">
+            <span>&nbsp;</span>
+          </td>
         </tr>
       </tbody>
     </table>

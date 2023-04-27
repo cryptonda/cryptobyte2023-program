@@ -1,4 +1,4 @@
-export type talkFormat = 'intro' | 'presentation' | 'workshop' | 'panel' | 'break'
+export type talkFormat = 'intro' | 'presentation' | 'workshop' | 'panel' | 'break' | 'side'
 
 export interface Talk {
   id: string

@@ -16,9 +16,23 @@ const talkStyle: { [key in talkFormat]: string } = {
   workshop: 'bg-app-workshop text-app-blue',
   panel: 'bg-app-panel',
   break: 'bg-gray',
+  side: 'bg-app-side',
 }
 
 const [isOpen, toggleOpen] = useToggle(false)
+
+function rows(l: number) {
+  let span = 1
+  if (l > 40)
+    span = 2
+  if (l >= 160)
+    span = 6
+
+  if (l >= 460)
+    span = 16
+
+  return span
+}
 </script>
 
 <template>
@@ -26,7 +40,7 @@ const [isOpen, toggleOpen] = useToggle(false)
     v-if="talk"
     min-w-200px font-exo
     rounded-1 text-sm :class="talkStyle[talk.format]" bg-opacity-30 hover:bg-opacity-40 p-2
-    whitespace-normal align-top cursor-pointer :rowspan="talk.length > 40 ? 2 : 1"
+    whitespace-normal align-top cursor-pointer :rowspan="rows(talk.length)"
     @click="toggleOpen()"
   >
     <div v-if="talk.title" font-bold mb-2>
@@ -42,9 +56,16 @@ const [isOpen, toggleOpen] = useToggle(false)
         <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px />moderátor {{ talk.moderator }}
       </li>
     </ul>
-    <p v-if="talk.description" text-xs>
-      {{ shortenText(talk.description) }}
-    </p>
+    <div v-if="talk.format === 'side'">
+      <p v-if="talk.description" text-xs>
+        {{ talk.description }}
+      </p>
+    </div>
+    <div v-else>
+      <p v-if="talk.description" text-xs>
+        {{ shortenText(talk.description) }}
+      </p>
+    </div>
     <BasePopupWrapper v-model="isOpen">
       <TalkSheet :talk="talk" />
     </BasePopupWrapper>
