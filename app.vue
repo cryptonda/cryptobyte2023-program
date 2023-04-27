@@ -13,13 +13,13 @@
           <LegendItem format="intro" />
         </div>
         <div flex justify-start>
-          <div bg-app-presentation opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>přednáška</div>
+          <LegendItem format="presentation" />
         </div>
         <div flex justify-start>
-          <div bg-app-workshop opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>workshop</div>
+          <LegendItem format="panel" />
         </div>
         <div flex justify-start>
-          <div bg-app-panel opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>panel</div>
+          <LegendItem format="workshop" />
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
           <th>Štosuj<br>workshops</th>
           <th>FireFish<br>workshops</th>
           <th>Foyer</th>
-          <th>Studentské nám.</th>
+          <th>Studentské<br>nám.</th>
         </tr>
       </thead>
       <tbody>
@@ -95,8 +95,8 @@
           <Talk id="kicom" />
           <Talk id="petrasova" />
           <Talk id="matejka" />
-          <Talk id="w-dvorak" rowspan="2" />
-          <Talk id="w-zapletal" rowspan="2" />
+          <Talk id="w-dvorak" />
+          <Talk id="w-zapletal" />
         </tr>
         <tr>
           <th leftth twenty>
@@ -115,11 +115,11 @@
           <th class="leftth h40">
             13:20
           </th>
-          <Talk id="panel-1" rowspan="2" />
+          <Talk id="panel-1" />
           <Talk id="kovarik" />
           <Talk id="habovstiak" />
-          <Talk id="w-cernansky" rowspan="2" />
-          <Talk id="w-matejka" rowspan="2" />
+          <Talk id="w-cernansky" />
+          <Talk id="w-matejka" />
         </tr>
         <tr>
           <th class="leftth twenty">
@@ -138,7 +138,7 @@
           <th class="leftth fourty">
             14:40
           </th>
-          <Talk id="panel-2" rowspan="2" />
+          <Talk id="panel-2" />
           <Talk id="kryptomates" />
           <Talk id="novak" />
           <Talk id="w9" />
@@ -157,7 +157,7 @@
             15:40
           </th>
           <td colspan="2" />
-          <Talk id="panel-3" rowspan="2" />
+          <Talk id="panel-3" />
           <td colspan="2" />
         </tr>
         <tr>

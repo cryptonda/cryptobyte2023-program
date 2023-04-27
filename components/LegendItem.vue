@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import type { talkFormat } from 'composables/types'
+import data from '@/assets/data.json'
 
 const props = defineProps<{
   format: talkFormat
 }>()
+
+const formatName = computed(() => {
+  const retVal = data.formats.find(format => format.id === props.format)?.name
+  return retVal || 'nenalezeno'
+})
 
 const formatStyle: { [key in talkFormat]: string } = {
   intro: 'bg-app-intro',
@@ -15,5 +21,7 @@ const formatStyle: { [key in talkFormat]: string } = {
 </script>
 
 <template>
-  <div :class="formatStyle[props.format]" bg-app-intro opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>zahájení</div>
+  <div flex gap-1>
+    <div :class="formatStyle[props.format]" bg-app-intro opacity-50 my-auto mx-4px w-10px h-10px rounded-4px /> <div>{{ formatName }}</div>
+  </div>
 </template>

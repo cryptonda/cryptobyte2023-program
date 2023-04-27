@@ -35,7 +35,7 @@ export default defineConfig({
       app: {
         blue: '#282b57',
         red: '#cd1719',
-        intro: '#fb7185',
+        intro: '#F2A900',
         presentation: '#282b57',
         workshop: '#0284c7',
         panel: '#16a34a',

@@ -3,8 +3,8 @@
         {
             "id": "zahajeni",
             "stage": "simplecoin",
-            "timeStart": "10:00",
-            "duration": "40",
+            "start": "9:30",
+            "length": "20",
             "format": "intro",
             "title": "Zahájení 2. ročníku ",
             "description": "",
@@ -12,6 +12,9 @@
         },
         {
             "id": "kovanda",
+            "stage": "simplecoin",
+            "start": "10:00",
+            "length": "40",
             "format": "presentation",
             "title": "Bitcoin jako pojistka před krizí",
             "description": "Rozbor reakce bitcoinu na letošní březnovou bankovní paniku v USA a pád Credit Suisse a co to pro rozvoj bitcoinu znamená z kratkodobé i dlouhodobé perspektivy.",
@@ -19,6 +22,9 @@
         },
         {
             "id": "juran",
+            "stage": "whalebooks",
+            "start": "10:00",
+            "length": "40",
             "format": "presentation",
             "title": "",
             "description":"",
@@ -26,6 +32,9 @@
         },
         {
             "id": "lucassiscze",
+            "stage": "callisto",
+            "start": "10:00",
+            "length": "40",
             "format": "presentation",
             "title": "Absolute Wallet",
             "description":"Seznámení s multi funkční kryptopeněženkou.",
@@ -33,6 +42,9 @@
         },
         {
             "id": "w-bok",
+            "stage": "stosuj",
+            "start": "10:00",
+            "length": "40",
             "format": "workshop",
             "title": "SFC modelování tokenomik",
             "description":"Lehce odbornější ponoření do tokenomik skrz matematické modelování. Jak odhalit špatnou tokenomiku? Čemu se vyvarovat při navrhování tokenomik?",
@@ -40,6 +52,9 @@
         },
         {
             "id": "w-rydvan",
+            "stage": "firefish",
+            "start": "10:00",
+            "length": "40",
             "format": "workshop",
             "title": "",
             "description":"",
@@ -50,6 +65,9 @@
         
         {
             "id": "niedoba",
+            "stage": "simplecoin",
+            "start": "11:00",
+            "length": "40",
             "format": "presentation",
             "title": "Politický rozměr bitcoinu",
             "description":"Kryptoměny spustily před pár lety legistativní lavinu. O tom jak rychle přicházíme o finanční svobody a proč v kryptoměnách nejde na prvním místě o peníze.",
@@ -57,6 +75,9 @@
         },
         {
             "id": "bednar",
+            "stage": "whalebooks",
+            "start": "11:00",
+            "length": "40",
             "format": "presentation",
             "title": "Bitcoin ako cypherpunk technológia",
             "description":"Prečo a ako Bitcoin zvyšuje našu slobodu v reálnom svete? Ako je možné, že nejaký softvér má dopad na slobodu vo fyzickom svete? A ako to súvisí s reguláciami a prípadne súkromím?",
@@ -64,6 +85,9 @@
         },
         {
             "id": "svarz",
+            "stage": "callisto",
+            "start": "11:00",
+            "length": "40",
             "format": "presentation",
             "title": "Jak přijít o peníze",
             "description":"Slepé podepisování transakcí způsobilo ztráty uživatelům v řádech milionů USD. Probereme útoky i možná řešení při práci v De-Fi a NFTs.",
@@ -71,6 +95,9 @@
         },
         {
             "id": "w-juran",
+            "stage": "stosuj",
+            "start": "11:00",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop navazující na přednášku \"Jak spustit kryptoprojekt?\"",
             "description":"Vaše otázky a Kirillovy odpovědi off-record.",
@@ -78,6 +105,9 @@
         },
         {
             "id": "w-varga",
+            "stage": "firefish",
+            "start": "11:00",
+            "length": "40",
             "format": "workshop",
             "title": "",
             "description":"",
@@ -89,6 +119,9 @@
 
         {
             "id": "kicom",
+            "stage": "simplecoin",
+            "start": "12:00",
+            "length": "40",
             "format": "presentation",
             "title": "Maximalisticky realismus",
             "description":"Jak se vyvíjel můj pohled na Bitcoin a altcoiny od seznamení v roce 2017 až po současnost. Kdy se dočkáme masové adopce a hyperbitcoinizace?",
@@ -96,6 +129,9 @@
         },
         {
             "id": "petrasova",
+            "stage": "whalebooks",
+            "start": "12:00",
+            "length": "40",
             "format": "presentation",
             "title": "Vexl v praxi: Najčastejšie mýty o Vexli a bitcoine bez KYC",
             "description":"Už je to skoro rok od spustenia Vexlu. Stále sa však objavujú pochybnosti, či už o appke samotnej, alebo vôbec o potrebe existencie takejto služby. Na tejto prednaške by som rada jednotlivé mýty adresovala a dodala publiku dôvod i odvahu vyskušať si bitcoin tak, ako bol zamýšlaný - peer to peer a bez KYC.",
@@ -103,6 +139,9 @@
         },
         {
             "id": "matejka",
+            "stage": "callisto",
+            "start": "12:00",
+            "length": "40",
             "format": "presentation",
             "title": "Bitcoin-backed living",
             "description":"Využití Bitcoinu jako finančního kolaterálu a jak může tento přístup přispět k rozšíření osobní a finanční nezávislosti.",
@@ -110,6 +149,9 @@
         },
         {
             "id": "w-dvorak",
+            "stage": "stosuj",
+            "start": "12:00",
+            "length": "60",
             "format": "workshop",
             "title": "Lightning vychytávky - LN adresy, LNURL, NFC karty",
             "description":"Vychytávky, které nám Lightning network nabízí. Přijímání SATů (bitcoinu) na adresu např. \"gorrdy@lnbc.cz\" pro opakované použití. Dotkneme se, pro co se dá využít nadstavba nad Lightningem LNURL a demonstrujeme, jak jednoduché je platit bitcoinovou platební kartou, kterou si zájemci budou moci i vyrobit a napárovat na svoji peněženku (NFC karta bude k dostání na místě).",
@@ -117,6 +159,9 @@
         },
         {
             "id": "w-zapletal",
+            "stage": "firefish",
+            "start": "12:00",
+            "length": "60",
             "format": "workshop",
             "title": "Zabezpečení vašich kryptoměn",
             "description":" Praktický workshop o používání hardwarové peněženky Trezor. Praktický průvodce používání peněženky Trezor a pokročilých funkcí pro maximální zabezpečení vašich kryptoměn. Vhodné pro začátečníky i pokročilé uživatele, kteří chtějí naplno využít potenciál self-custody řešení.",
@@ -127,6 +172,9 @@
 
         {
             "id": "panel-1",
+            "stage": "simplecoin",
+            "start": "13:20",
+            "length": "60",
             "format": "panel",
             "title": "Regulace, banky a krypto v ČR",
             "description":"",
@@ -140,6 +188,9 @@
         },
         {
             "id": "kovarik",
+            "stage": "whalebooks",
+            "start": "13:20",
+            "length": "40",
             "format": "presentation",
             "title": "HODL v bull marketu, nebo brát zisky?",
             "description":"S přicházejícím bull marketem nastává otázka - kdy a jak budu chtít odprodávat? Obecná odpověď neexistuje. Pojďme se ale pobavit o možných scénářích a životních situacích, kdy postupný výběr zisku dává smysl. A jak to nejlépe automatizovat.",
@@ -147,6 +198,9 @@
         },
         {
             "id": "habovstiak",
+            "stage": "callisto",
+            "start": "13:20",
+            "length": "40",
             "format": "presentation",
             "title": "Smart kontrakty nad Bitcoinom",
             "description":"Neprajníci Bitcoinu tvrdia že nad Bitcoinom sa smart kontrakty robiť nedajú a nad inými kryptomenami dajú. To však vôbec nie je pravda. Pozrieme sa na to ako sa dajú robiť kontrakty nad Bitcoinom a porovnáme ich dizajn s inými kryptomenami.",
@@ -154,6 +208,9 @@
         },
         {
             "id": "w-cernansky",
+            "stage": "stosuj",
+            "start": "13:20",
+            "length": "60",
             "format": "workshop",
             "title": "Pionýrské testování produktu Simplecoin Wallet",
             "description":"Směnárna Simplecoin spouští nový produkt Simplecoin Wallet a zajímá nás, co si o něm myslí budoucí uživatelé - jak snadno se jim ovládá a co mu chybí. Na workshopu si tento produkt vyzkoušíte ze svého telefonu nebo na našem počítači. Není potřeba mít žádnou peněženku, vlastní krypto ani nebudeme chtít žádné osobní údaje. Nemusíte mít ani žádnou velkou znalost z oblasti krypta - stačí jen zájem o obchodování a o pionýrské testování nového produktu.",
@@ -161,6 +218,9 @@
         },
         {
             "id": "w-matejka",
+            "stage": "firefish",
+            "start": "13:20",
+            "length": "60",
             "format": "workshop",
             "title": "Firefish protocol -  deep dive",
             "description":"Workshop zaměřený na technický návrh Firefish protokolu, který umožňuje použití Bitcoinu jako superkolaterálu. Podrobně se podíváme na jeho bezpečnostní model a rozdíly oproti jiným přístupům.",
@@ -171,6 +231,9 @@
         
         {
             "id": "panel-2",
+            "stage": "simplecoin",
+            "start": "14:40",
+            "length": "60",
             "format": "panel",
             "title": "Panel 2",
             "description":"",
@@ -182,6 +245,9 @@
         },
         {
             "id": "kryptomates",
+            "stage": "whalebooks",
+            "start": "14:40",
+            "length": "40",
             "format": "presentation",
             "title": "Nostr - o co jde a jak funguje",
             "description":"Představení protokolu Nostr a jeho využití v decentralizovaných sociálních sítích a adopci Lightning Network",
@@ -189,6 +255,9 @@
         },
         {
             "id": "novak",
+            "stage": "callisto",
+            "start": "14:40",
+            "length": "40",
             "format": "presentation",
             "title": "Budoucnost Lightning Network",
             "description":"Lightning Network je bez debat revoluční technologií. Je ale férové uznat, že zatím má určité mouchy. V této přednášce se netechnicky podíváme na to, jak by mohly platby přes lightning vypadat za 5 let, na čem se aktuálně pracuje a jaké novinky nás čekají.",
@@ -196,6 +265,9 @@
         },
         {
             "id": "w9",
+            "stage": "stosuj",
+            "start": "14:40",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop 9",
             "description":"",
@@ -203,6 +275,9 @@
         },
         {
             "id": "w10",
+            "stage": "firefish",
+            "start": "14:40",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop 10",
             "description":"",
@@ -212,6 +287,9 @@
 
         {
             "id": "panel-3",
+            "stage": "callisto",
+            "start": "15:40",
+            "length": "60",
             "format": "panel",
             "title": "Panel 3",
             "description":"",
@@ -225,6 +303,9 @@
 
         {
             "id": "tetek",
+            "stage": "simplecoin",
+            "start": "16:00",
+            "length": "40",
             "format": "presentation",
             "title": "Bitcoin v Africe",
             "description":"Adopce bitcoinu v Africe - jak probíhá? Jaké má překážky a co je naopak jednodušší? ",
@@ -232,6 +313,9 @@
         },
         {
             "id": "kyrsch",
+            "stage": "whalebooks",
+            "start": "16:00",
+            "length": "40",
             "format": "presentation",
             "title": "",
             "description":"",
@@ -239,6 +323,9 @@
         },
         {
             "id": "w11",
+            "stage": "stosuj",
+            "start": "16:00",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop 11",
             "description":"",
@@ -246,6 +333,9 @@
         },
         {
             "id": "w12",
+            "stage": "firefish",
+            "start": "16:00",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop 12",
             "description":"",
@@ -257,6 +347,9 @@
 
         {
             "id": "luptak",
+            "stage": "simplecoin",
+            "start": "17:00",
+            "length": "40",
             "format": "presentation",
             "title": "",
             "description":"",
@@ -264,6 +357,9 @@
         },
         {
             "id": "bednar2",
+            "stage": "whalebooks",
+            "start": "17:00",
+            "length": "40",
             "format": "presentation",
             "title": "",
             "description":"",
@@ -271,6 +367,9 @@
         },
         {
             "id": "bures",
+            "stage": "callisto",
+            "start": "17:00",
+            "length": "40",
             "format": "presentation",
             "title": "",
             "description":"",
@@ -278,6 +377,9 @@
         },
         {
             "id": "w13",
+            "stage": "stosuj",
+            "start": "17:00",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop 13",
             "description":"",
@@ -285,6 +387,9 @@
         },
         {
             "id": "w14",
+            "stage": "firefish",
+            "start": "17:00",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop 14",
             "description":"",

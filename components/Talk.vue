@@ -26,7 +26,8 @@ const [isOpen, toggleOpen] = useToggle(false)
     v-if="talk"
     min-w-200px font-exo
     rounded-1 text-sm :class="talkStyle[talk.format]" bg-opacity-30 hover:bg-opacity-40 p-2
-    whitespace-normal align-top cursor-pointer @click="toggleOpen()"
+    whitespace-normal align-top cursor-pointer :rowspan="talk.length > 40 ? 2 : 1"
+    @click="toggleOpen()"
   >
     <div v-if="talk.title" font-bold mb-2>
       {{ talk.title }}
@@ -44,11 +45,11 @@ const [isOpen, toggleOpen] = useToggle(false)
     <p v-if="talk.description" text-xs>
       {{ shortenText(talk.description) }}
     </p>
+    <BasePopupWrapper v-model="isOpen">
+      <TalkSheet :talk="talk" />
+    </BasePopupWrapper>
   </td>
   <td v-else class="error">
     Nenalezeno
   </td>
-  <BasePopupWrapper v-model="isOpen">
-    <TalkSheet :talk="talk" />
-  </BasePopupWrapper>
 </template>

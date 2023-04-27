@@ -2,6 +2,9 @@ export type talkFormat = 'intro' | 'presentation' | 'workshop' | 'panel' | 'brea
 
 export interface Talk {
   id: string
+  stage: string
+  start: string
+  length: string
   format: string
   title: string
   description: string
