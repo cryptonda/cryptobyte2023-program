@@ -202,7 +202,7 @@
           <Talk id="bednar2" />
           <Talk id="panel-3" />
           <Talk id="w-bures" />
-          <Talk id="w14" />
+          <!-- <Talk id="w14" /> -->
         </tr>
         <tr>
           <th leftth twenty>

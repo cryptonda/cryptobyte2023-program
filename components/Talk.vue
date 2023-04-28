@@ -40,7 +40,7 @@ function rows(l: number) {
     v-if="talk"
     min-w-200px font-exo
     rounded-1 text-sm :class="talkStyle[talk.format]" bg-opacity-30 hover:bg-opacity-40 p-2
-    whitespace-normal align-top cursor-pointer :rowspan="rows(talk.length)"
+    whitespace-normal align-top cursor-pointer text-app-blue :rowspan="rows(talk.length)"
     @click="toggleOpen()"
   >
     <div v-if="talk.title" font-bold mb-2>
