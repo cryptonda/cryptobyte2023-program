@@ -215,7 +215,7 @@
               <div w-100vw sticky left-0 text-center text-app-blue font-exo text-xs>
                 <div>
                   <NuxtLink to="https://develit.io/" target="_blank">
-                    <img src="/public/logo-develit-color-on-transparent.svg" w-120px md:w-150px lg:w-150px alt="Develit logo" mx-auto hover:scale-105 duration-200>
+                    <img src="/public/logo-develit-color-on-transparent.svg" h-40px alt="Develit logo" mx-auto grayscale brightness-120 hover:grayscale-0 hover:brightness-100 duration-300>
                   </NuxtLink>
                 </div>
                 <div block p-4>
