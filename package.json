@@ -11,8 +11,10 @@
   "devDependencies": {
     "@develit-io/develitesse": "github:develit-io/develitesse",
     "@iconify-json/mdi": "^1.1.50",
+    "@types/marked": "^4.0.8",
     "@types/node": "^18",
     "bottom-sheet-vue3": "^2.0.5",
+    "marked": "^4.3.0",
     "nuxt": "^3.4.2",
     "nuxt-headlessui": "^1.1.4"
   }
