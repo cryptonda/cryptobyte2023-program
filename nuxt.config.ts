@@ -7,5 +7,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/program/',
   },
-
+  routeRules: {
+    '/**': { ssr: false },
+  },
 })
