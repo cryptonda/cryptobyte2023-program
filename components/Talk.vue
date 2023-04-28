@@ -53,14 +53,14 @@ function rows(l: number) {
     </ul>
     <ul v-if="talk.moderator" mb-2>
       <li>
-        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px />moderátor {{ talk.moderator }}
+        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px /> moderuje {{ talk.moderator }}
       </li>
     </ul>
     <div v-if="talk.format === 'side'">
-      <p v-if="talk.description" text-xs v-html="markdownIt(talk.description)" />
+      <p v-if="talk.description" class="description" text-xs v-html="markdownIt(talk.description)" />
     </div>
     <div v-else>
-      <p v-if="talk.description" text-xs v-html="shortenText(markdownIt(talk.description))" />
+      <div v-if="talk.description" text-xs v-html="shortenText(markdownIt(talk.description))" />
     </div>
     <BasePopupWrapper v-model="isOpen">
       <TalkSheet :talk="talk" />

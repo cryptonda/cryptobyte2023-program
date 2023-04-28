@@ -7,13 +7,16 @@
             <div>
               <div my-8px>
                 <div w-100vw sticky left-0 text-center>
+                  <NuxtLink to="https://cryptobyte.cz/" text-gray-600 flex text-xs items-center ml-2 dashedlink>
+                    <UnoIcon i-mdi-arrow-left aria-hidden="false" />Úvodní stránka
+                  </NuxtLink>
                   <img src="/public/cb-logo.svg" w-150px md:w-250px lg:w-300px alt="CryptoByte logo" mx-auto>
                 </div>
                 <h1 w-100vw sticky left-0 font-exo text-2xl md:text-4xl text-center mb-16px>
                   Program 2023
                 </h1>
                 <div w-100vw sticky left-0 flex gap-4 justify-center my-4>
-                  <Printer />
+                  <!-- <Printer /> -->
                   <QrCode />
                 </div>
                 <div w-100vw sticky left-0 text-center flex flex-wrap justify-center gap-8px text-app-blue text-xs>
@@ -161,7 +164,7 @@
           <th class="leftth">
             15:20
           </th>
-          <td class="prestavka" colspan="4">
+          <td class="prestavka" colspan="2">
             <span>&nbsp;</span>
           </td>
         </tr>
@@ -265,5 +268,17 @@ position: sticky;
 left: 0;
 background: #ddd;
 z-index: 1;
+}
+
+.description p{
+  margin-bottom: 1em;
+}
+.description ul{
+  margin-bottom: 1em;
+}
+.description li{
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 12px;
 }
 </style>

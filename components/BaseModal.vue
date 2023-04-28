@@ -68,7 +68,7 @@ function close(): void {
                 <div v-if="isClosable" class="absolute top-0 right-0 pt-4 pr-4">
                   <button type="button" app-icon-btn @click="close">
                     <span class="sr-only">Close</span>
-                    <UnoIcon i-fa-close aria-hidden="false" text-gray-600 />
+                    <UnoIcon i-mdi-close aria-hidden="false" text-gray-600 />
                   </button>
                 </div>
               </HeadlessDialogPanel>

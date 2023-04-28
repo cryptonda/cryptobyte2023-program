@@ -17,7 +17,7 @@
             "length": "40",
             "format": "presentation",
             "title": "Bitcoin jako pojistka před krizí",
-            "description": "**Rozbor reakce** bitcoinu na letošní březnovou bankovní paniku v USA a pád Credit Suisse a co to pro rozvoj bitcoinu znamená z kratkodobé i dlouhodobé perspektivy.",
+            "description": "Rozbor reakce bitcoinu na letošní březnovou bankovní paniku v USA a pád Credit Suisse a co to pro rozvoj bitcoinu znamená z kratkodobé i dlouhodobé perspektivy.",
             "speakers":["Lukáš Kovanda"]
         },
         {
@@ -56,9 +56,9 @@
             "start": "10:00",
             "length": "40",
             "format": "workshop",
-            "title": "",
-            "description":"",
-            "speakers":["Jan Rydvan - Blockchain Legal"]
+            "title": "Kryptopodnikatelé mezi paragrafy",
+            "description":"Cílem workshopu je shrnout základní požadavky na kryptopodnikání z pohledu českého práva. Workshop je určen zejména začínajícím, ale i zavedeným kryptopodnikatelům, ať už jsi směnárník, portfolio manager nebo NFT vizionář.",
+            "speakers":["Jan Rydvan"]
         },
         {
             "id": "foyer-1",
@@ -67,7 +67,7 @@
             "length": "180",
             "format": "side",
             "title": "Knižní novinky",
-            "description":"Letos je CryptoByte tak trochu jako knižní veletrh :-) Mezi stánky Braiins a SatoshiLabs si můžete nechat podepsat knihy hned od 3 autorů: Josef Tětek - není třeba představovat :-) Michal Novák - novinka \"Lightning Network\" a Kamil Bouška - autor zbrusu nové knihy \"Velká kniha o bitcoinu a kryptoměnách\". Křest v režii Braiins Publishing je naplnánovaný na 12.5. večer v kině Varšava od 17:00 - vstup a nějaké to pivko zdarma!",
+            "description":"Letos je CryptoByte tak trochu jako knižní veletrh :-)  \n\n  Mezi stánky Braiins a SatoshiLabs si můžete nechat podepsat knihy hned od 3 autorů:\n\n - **Josef Tětek** - „Bitcoin: Odluka pneněz od státu“, „Nepřátelé státu, přátelé svobody“\n- **Michal Novák** - novinka \"Lightning Network\"\n- **Kamil Bouška** - jen pár hodin pokřtěná \"Velká kniha o bitcoinu a kryptoměnách\" \n\n**Tip:**\n\nKřest „Velké knihy o bitcoinu a kryptoměnách“ v režii Braiins Publishing se koná v předvečer konference CryptoByte, v pátek 12.5. v kině Varšava od 17:00 - vstup i nějaké to pivko jsou zdarma!",
             "speakers":[]
         },
         {
@@ -77,7 +77,7 @@
             "length": "460",
             "format": "side",
             "title": "Zábava a občerstvení",
-            "description":"Před budovou G najdete po celý den: Jídlo z foodtrucků Možnost vyzkoušet si různé modely eletrokoloběžek značky VSETT. Kouknout se, jak se pálí laserem do dřeva, kovu i papírového kartonu a možná si i něco vypáleného odnést na památku.",
+            "description":"Před budovou G najdete po celý den:\n\n- Jídlo z **foodtrucků** \n- Možnost vyzkoušet si různé modely **eletrokoloběžek** značky VSETT, Teverun a Mosphera.\n- Kouknout se, jak se pálí **laserem** do dřeva, kovu i papírového kartonu a možná si i něco vypáleného odnést na památku.",
             "speakers":[]
         },
         
@@ -100,7 +100,7 @@
             "length": "40",
             "format": "presentation",
             "title": "Bitcoin ako cypherpunk technológia",
-            "description":"Prečo a ako Bitcoin zvyšuje našu slobodu v reálnom svete? Ako je možné, že nejaký softvér má dopad na slobodu vo fyzickom svete? A ako to súvisí s reguláciami a prípadne súkromím?",
+            "description":"Prečo a ako bitcoin zvyšuje našu slobodu v reálnom svete? Ako je možné, že nejaký softvér má dopad na slobodu vo fyzickom svete? A ako to súvisí s reguláciami a prípadne súkromím?",
             "speakers":["Juraj Bednár"]
         },
         {
@@ -129,9 +129,9 @@
             "start": "11:00",
             "length": "40",
             "format": "workshop",
-            "title": "",
-            "description":"",
-            "speakers":["Ondřej Varga"]
+            "title": "Jak na zdanění kryptoměn v nástroji WhaleBooks",
+            "description":"Vlastníte kryptoměny a řešíte, jak je správně zdanit? Projdeme si český nástroj WhaleBooks.com. Jeho nastavení a funkčnost. Ukážeme si možnosti sledování výkonu portfolia a jak reportovat podklady pro daňové přiznání fyzických osob. V případě právnických osob si povíme stručnou teorii a prakticky ukážeme, jaké jsou možnosti zaúčtování transakcí přímo do účetního software.",
+            "speakers":["Ondřej Varga", "David Jeřábek"]
         },
        
         
@@ -144,7 +144,7 @@
             "length": "40",
             "format": "presentation",
             "title": "Maximalistický realismus",
-            "description":"Jak se vyvíjel můj pohled na Bitcoin a altcoiny od seznamení v roce 2017 až po současnost. Kdy se dočkáme masové adopce a hyperbitcoinizace?",
+            "description":"Jak se vyvíjel můj pohled na bitcoin a altcoiny od seznamení v roce 2017 až po současnost. Kdy se dočkáme masové adopce a hyperbitcoinizace?",
             "speakers":["Jakub Kicom Vejmola"]
         },
         {
@@ -195,7 +195,7 @@
             "length": "180",
             "format": "side",
             "title": "Mind ball",
-            "description":"Kromě lehkého občerstvení a stánků partnerů konference si zde můžete zahrát Mindball - unikátní hra, při které musíte zapojit mozek. Vyhrává ten, kdo lépe ovládne své mozkové vlny a přetlačí kuličku k soupeři. ",
+            "description":"Kromě lehkého občerstvení a stánků partnerů konference si zde můžete zahrát Mindball - unikátní hra, při které musíte zapojit mozek.\n\nVyhrává ten, kdo lépe ovládne své mozkové vlny a přetlačí kuličku k soupeři. ",
             "speakers":[]
         },
 
@@ -222,7 +222,7 @@
             "length": "40",
             "format": "presentation",
             "title": "Lightning Network v adopci kryptoměn",
-            "description":"rychlí Lightning Network adopci kryptoměn. Co může každý z nás udělat pro adopci kryptoměn. Jaké jsou legislativní překážky. Co dalšího brání rychlejšímu používání kryptoměn mainstreamem.",
+            "description":"Jak zrychlí Lightning Network adopci kryptoměn. Co může každý z nás udělat pro adopci kryptoměn. Jaké jsou legislativní překážky. Co dalšího brání rychlejšímu používání kryptoměn mainstreamem.",
             "speakers":["Marek Kyrsch"]
         },
         {
@@ -290,19 +290,19 @@
             "start": "14:40",
             "length": "40",
             "format": "presentation",
-            "title": "",
-            "description":"",
+            "title": "Bitcoin v Zenu",
+            "description":"Jakým způsobem přistupovat k investování do krypto a mít průměrnou nákupní cenu co nejblíže minimům, neminout odprodeje u vrcholů a přitom být v klidu a dobře spát ;)",
             "speakers":["Vladimír Bureš"]
         },
         {
             "id": "w-varga-2",
             "stage": "stosuj",
             "start": "14:40",
-            "length": "40",
+            "length": "60",
             "format": "workshop",
-            "title": "",
-            "description":"",
-            "speakers":["Ondřej Varga"]
+            "title": "Jak na zdanění kryptoměn v nástroji WhaleBooks",
+            "description":"Vlastníte kryptoměny a řešíte, jak je správně zdanit? Projdeme si český nástroj WhaleBooks.com. Jeho nastavení a funkčnost. Ukážeme si možnosti sledování výkonu portfolia a jak reportovat podklady pro daňové přiznání fyzických osob. V případě právnických osob si povíme stručnou teorii a prakticky ukážeme, jaké jsou možnosti zaúčtování transakcí přímo do účetního software.",
+            "speakers":["Ondřej Varga", "David Jeřábek"]
         },
         {
             "id": "w-cerny",
@@ -408,10 +408,10 @@
             "id": "w-bures",
             "stage": "stosuj",
             "start": "17:00",
-            "length": "60",
+            "length": "40",
             "format": "workshop",
             "title": "Workshop navazující na přednášku \"Bitcoin v Zenu\"",
-            "description":"Praktické pokračování přednášky",
+            "description":"Praktické pokračování přednášky. Čas na konkrétní otázky a odpovědi.",
             "speakers":["Vladimír Bureš"]
         },
         {

@@ -35,9 +35,9 @@ const stageName = computed(() => {
     </ul>
     <ul v-if="talk.moderator" my-2>
       <li>
-        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px />moderátor {{ talk.moderator }}
+        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px /> moderuje {{ talk.moderator }}
       </li>
     </ul>
-    <p v-if="talk.description" my-4 v-html="markdownIt(talk.description)" />
+    <div v-if="talk.description" my-4 class="description" v-html="markdownIt(talk.description)" />
   </div>
 </template>
