@@ -1,5 +1,5 @@
 <template>
-  <div min-w-1500px>
+  <div>
     <div>
       <div w-100vw sticky left-0 text-center mt-8px>
         <img src="/public/cb-logo.svg" w-150px md:w-250px lg:w-300px alt="CryptoByte logo" mx-auto>
@@ -35,7 +35,7 @@
       wrapper
     </BasePopupWrapper>
   </div>
-  <div my-16px>
+  <div w-full overflow-auto>
     <table>
       <thead>
         <tr>
