@@ -1,43 +1,47 @@
 <template>
-  <div>
-    <div>
-      <div w-100vw sticky left-0 text-center mt-8px>
-        <img src="/public/cb-logo.svg" w-150px md:w-250px lg:w-300px alt="CryptoByte logo" mx-auto>
-      </div>
-      <h1 w-100vw sticky left-0 font-exo text-2xl md:text-4xl text-center mb-16px>
-        Program 2023
-      </h1>
-      <div w-100vw sticky left-0 flex gap-4 justify-center my-4>
-        <Printer />
-        <QrCode />
-      </div>
-      <div w-100vw sticky left-0 text-center flex flex-wrap justify-center gap-8px text-app-blue text-xs>
-        <div flex justify-start>
-          <LegendItem format="intro" />
-        </div>
-        <div flex justify-start>
-          <LegendItem format="presentation" />
-        </div>
-        <div flex justify-start>
-          <LegendItem format="panel" />
-        </div>
-        <div flex justify-start>
-          <LegendItem format="workshop" />
-        </div>
-        <div flex justify-start>
-          <LegendItem format="side" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <div>
-    <BasePopupWrapper>
-      wrapper
-    </BasePopupWrapper>
-  </div>
-  <div w-full overflow-auto>
+  <div w-full overflow-auto h-screen>
     <table>
       <thead>
+        <tr>
+          <td colspan="8">
+            <div>
+              <div my-8px>
+                <div w-100vw sticky left-0 text-center>
+                  <img src="/public/cb-logo.svg" w-150px md:w-250px lg:w-300px alt="CryptoByte logo" mx-auto>
+                </div>
+                <h1 w-100vw sticky left-0 font-exo text-2xl md:text-4xl text-center mb-16px>
+                  Program 2023
+                </h1>
+                <div w-100vw sticky left-0 flex gap-4 justify-center my-4>
+                  <Printer />
+                  <QrCode />
+                </div>
+                <div w-100vw sticky left-0 text-center flex flex-wrap justify-center gap-8px text-app-blue text-xs>
+                  <div flex justify-start>
+                    <LegendItem format="intro" />
+                  </div>
+                  <div flex justify-start>
+                    <LegendItem format="presentation" />
+                  </div>
+                  <div flex justify-start>
+                    <LegendItem format="panel" />
+                  </div>
+                  <div flex justify-start>
+                    <LegendItem format="workshop" />
+                  </div>
+                  <div flex justify-start>
+                    <LegendItem format="side" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <BasePopupWrapper>
+                wrapper
+              </BasePopupWrapper>
+            </div>
+          </td>
+        </tr>
         <tr>
           <th class="w-50px">
 &nbsp;
