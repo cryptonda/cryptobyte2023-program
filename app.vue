@@ -209,6 +209,24 @@
             <span>&nbsp;</span>
           </td>
         </tr>
+        <tr>
+          <td colspan="8">
+            <div my-4>
+              <div w-100vw sticky left-0 text-center text-app-blue font-exo text-xs>
+                <div>
+                  <NuxtLink to="https://develit.io/" target="_blank">
+                    <img src="/public/logo-develit-color-on-transparent.svg" w-120px md:w-150px lg:w-150px alt="Develit logo" mx-auto hover:scale-105 duration-200>
+                  </NuxtLink>
+                </div>
+                <div block p-4>
+                  Program pro CryptoByte 2023 s radostí vytvořil tým <NuxtLink to="https://develit.io/" target="_blank" dashedlink>
+                    Develit.io
+                  </NuxtLink>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
