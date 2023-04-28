@@ -1,3 +1,5 @@
+import { marked } from 'marked'
+
 export function shortenText(txt: string, maxWords = 20) {
   const words = txt.split(' ')
   const shortenedText = words.slice(0, 20).join(' ')
@@ -6,4 +8,8 @@ export function shortenText(txt: string, maxWords = 20) {
     return `${shortenedText} ... (více)`
   else
     return txt
+}
+
+export function markdownIt(text: string) {
+  return marked.parse(text)
 }

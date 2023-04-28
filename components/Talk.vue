@@ -57,14 +57,10 @@ function rows(l: number) {
       </li>
     </ul>
     <div v-if="talk.format === 'side'">
-      <p v-if="talk.description" text-xs>
-        {{ talk.description }}
-      </p>
+      <p v-if="talk.description" text-xs v-html="markdownIt(talk.description)" />
     </div>
     <div v-else>
-      <p v-if="talk.description" text-xs>
-        {{ shortenText(talk.description) }}
-      </p>
+      <p v-if="talk.description" text-xs v-html="shortenText(markdownIt(talk.description))" />
     </div>
     <BasePopupWrapper v-model="isOpen">
       <TalkSheet :talk="talk" />
