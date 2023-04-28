@@ -7,7 +7,7 @@
             <div>
               <div my-8px>
                 <div w-100vw sticky left-0 text-center>
-                  <NuxtLink to="https://cryptobyte.cz/" text-gray-600 flex text-xs items-center ml-2 dashedlink>
+                  <NuxtLink to="https://cryptobyte.cz/" text-gray-600 flex text-xs items-center pl-2 dashedlink>
                     <UnoIcon i-mdi-arrow-left aria-hidden="false" />Úvodní stránka
                   </NuxtLink>
                   <img src="/public/cb-logo.svg" w-150px md:w-250px lg:w-300px alt="CryptoByte logo" mx-auto>
@@ -53,7 +53,7 @@
           <th>Whalebooks<br>stage</th>
           <th>Callisto<br>stage</th>
           <th>Štosuj<br>workshops</th>
-          <th>FireFish<br>workshops</th>
+          <th>Firefish<br>workshops</th>
           <th>Foyer</th>
           <th>Univerzitní<br>nám.</th>
         </tr>
@@ -226,6 +226,7 @@
                     Develit.io
                   </NuxtLink>
                 </div>
+                <div>Změna programu vyhrazena</div>
               </div>
             </div>
           </td>

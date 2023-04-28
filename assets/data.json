@@ -386,8 +386,8 @@
             "start": "17:00",
             "length": "40",
             "format": "presentation",
-            "title": "",
-            "description":"",
+            "title": "Kryptomeny pre podnikateľov",
+            "description":"Ako využívať volatilnú technológiu na zlepšovanie svojho podnikateľského plánu? Kde majú kryptomeny miesto v podnikaní?",
             "speakers":["Juraj Bednár"]
         },
         {
@@ -420,7 +420,7 @@
             "start": "17:00",
             "length": "40",
             "format": "workshop",
-            "title": "Workshop 14",
+            "title": "",
             "description":"",
             "speakers":[]
         }
@@ -445,7 +445,7 @@
         },
         {
             "id": "firefish",
-            "name": "FireFish workshops"
+            "name": "Firefish workshops"
         },
         {
             "id": "foyer",
