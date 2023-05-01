@@ -48,12 +48,12 @@ function rows(l: number) {
     </div>
     <ul v-if="talk.speakers.length" mb-2>
       <li v-for="speaker in talk.speakers" :key="speaker">
-        <UnoIcon i-mdi-user aria-hidden="false" inline-block relative top-2px /> {{ speaker }}
+        <UnoIcon i-mdi-user aria-hidden="false" inline-block relative top-2px /> <Speaker :id="speaker" />
       </li>
     </ul>
     <ul v-if="talk.moderator" mb-2>
       <li>
-        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px /> moderuje {{ talk.moderator }}
+        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px /> moderuje <Speaker :id="talk.moderator" />
       </li>
     </ul>
     <div v-if="talk.format === 'side'">

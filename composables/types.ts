@@ -10,3 +10,10 @@ export interface Talk {
   description: string
   speakers: string[]
 }
+
+export interface Speaker {
+  id: string
+  name: string
+  description: string
+  img: string
+}

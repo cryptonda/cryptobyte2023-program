@@ -29,13 +29,16 @@ const stageName = computed(() => {
       {{ talk.title }}
     </div>
     <ul v-if="talk.speakers.length" my-2>
-      <li v-for="speaker in talk.speakers" :key="speaker">
-        <UnoIcon i-mdi-user aria-hidden="false" inline-block relative top-2px /> {{ speaker }}
+      <li v-for="speaker in talk.speakers" :key="speaker" my-2>
+        <Speaker :id="speaker" type="full" />
       </li>
     </ul>
     <ul v-if="talk.moderator" my-2>
+      <li pl-52px text-12px border-t-1px pt-2 border-slate-300>
+        Moderuje:
+      </li>
       <li>
-        <UnoIcon i-mdi-microphone aria-hidden="false" inline-block relative top-2px /> moderuje {{ talk.moderator }}
+        <Speaker :id="talk.moderator" type="full" />
       </li>
     </ul>
     <div v-if="talk.description" my-4 class="description" v-html="markdownIt(talk.description)" />
