@@ -218,7 +218,7 @@
               <div w-100vw sticky left-0 text-center text-app-blue font-exo text-xs>
                 <div>
                   <NuxtLink to="https://develit.io/" target="_blank">
-                    <img src="/public/logo-develit-color-on-transparent.svg" h-40px alt="Develit logo" mx-auto grayscale brightness-120 hover:grayscale-0 hover:brightness-100 duration-300>
+                    <div w-150px h-40px alt="Develit logo" mx-auto duration-300 class="develit-logo" />
                   </NuxtLink>
                 </div>
                 <div block p-4>
@@ -281,5 +281,14 @@ z-index: 1;
   list-style-type: disc;
   list-style-position: outside;
   margin-left: 12px;
+}
+
+.develit-logo{
+  background-image: url('/public/develit-logo-black.svg');
+  opacity: 50%;
+}
+.develit-logo:hover{
+  background-image: url('/public/develit-logo-color.svg');
+  opacity: 1
 }
 </style>
