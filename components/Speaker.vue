@@ -23,7 +23,7 @@ const speaker = computed(() => {
 
   <div v-else flex gap-2 items-center>
     <div v-if="speaker.img.length">
-      <img :src="`/public/speakers/${speaker.img}`" w-45px h-45px rounded-full drop-shadow>
+      <img :src="`speakers/${speaker.img}`" w-45px h-45px rounded-full drop-shadow>
     </div>
     <div v-else>
       <img src="/public/speaker.svg" w-45px h-45px rounded-full drop-shadow>
