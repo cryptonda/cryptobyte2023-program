@@ -91,7 +91,7 @@
           </th>
           <Talk id="niedoba" />
           <Talk id="bednar" />
-          <Talk id="svarz" />
+          <Talk id="habovstiak" />
           <Talk id="w-juran" />
           <Talk id="w-varga" />
         </tr>
@@ -133,7 +133,7 @@
           </th>
           <Talk id="panel-1" />
           <Talk id="kyrsch" />
-          <Talk id="habovstiak" />
+          <Talk id="svarz" />
           <Talk id="w-cernansky" />
           <Talk id="w-matejka" />
         </tr>

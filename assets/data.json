@@ -104,14 +104,14 @@
             "speakers":["juraj-bednar"]
         },
         {
-            "id": "svarz",
+            "id": "habovstiak",
             "stage": "callisto",
             "start": "11:00",
             "length": "40",
             "format": "presentation",
-            "title": "Jak přijít o peníze",
-            "description":"Slepé podepisování transakcí způsobilo ztráty uživatelům v řádech milionů USD. Probereme útoky i možná řešení při práci v De-Fi a NFTs.",
-            "speakers":["radek-svarz"]
+            "title": "Smart kontrakty nad Bitcoinom",
+            "description":"Neprajníci Bitcoinu tvrdia že nad Bitcoinom sa smart kontrakty robiť nedajú a nad inými kryptomenami dajú. To však vôbec nie je pravda. Pozrieme sa na to ako sa dajú robiť kontrakty nad Bitcoinom a porovnáme ich dizajn s inými kryptomenami.",
+            "speakers":["martin-habovstiak"]
         },
         {
             "id": "w-juran",
@@ -226,14 +226,14 @@
             "speakers":["marek-kyrsch"]
         },
         {
-            "id": "habovstiak",
+            "id": "svarz",
             "stage": "callisto",
             "start": "13:20",
             "length": "40",
             "format": "presentation",
-            "title": "Smart kontrakty nad Bitcoinom",
-            "description":"Neprajníci Bitcoinu tvrdia že nad Bitcoinom sa smart kontrakty robiť nedajú a nad inými kryptomenami dajú. To však vôbec nie je pravda. Pozrieme sa na to ako sa dajú robiť kontrakty nad Bitcoinom a porovnáme ich dizajn s inými kryptomenami.",
-            "speakers":["martin-habovstiak"]
+            "title": "Jak přijít o peníze",
+            "description":"Slepé podepisování transakcí způsobilo ztráty uživatelům v řádech milionů USD. Probereme útoky i možná řešení při práci v De-Fi a NFTs.",
+            "speakers":["radek-svarz"]
         },
         {
             "id": "w-cernansky",
