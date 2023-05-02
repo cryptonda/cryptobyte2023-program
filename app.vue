@@ -52,7 +52,7 @@
           <th>Simplecoin<br>stage</th>
           <th>Whalebooks<br>stage</th>
           <th>Callisto<br>stage</th>
-          <th>Štosuj<br>workshops</th>
+          <th>Štosuj.cz<br>workshops</th>
           <th>Firefish<br>workshops</th>
           <th>Foyer</th>
           <th>Univerzitní<br>nám.</th>
