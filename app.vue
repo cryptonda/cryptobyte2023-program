@@ -1,3 +1,18 @@
+<script setup lang="ts">
+useHead({
+  title: 'Program CryptoByte 2023',
+  htmlAttrs: {
+    lang: 'cs',
+  },
+  meta: [
+    {
+      name: 'description',
+      content: 'Program CryptoByte 2023 v Liberci',
+    },
+  ],
+})
+</script>
+
 <template>
   <div w-full overflow-auto h-screen>
     <table>

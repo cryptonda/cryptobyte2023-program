@@ -66,9 +66,9 @@ function close(): void {
                   <slot />
                 </div>
                 <div v-if="isClosable" class="absolute top-0 right-0 pt-4 pr-4">
-                  <button type="button" app-icon-btn @click="close">
+                  <button type="button" app-icon-btn outline-none @click="close">
                     <span class="sr-only">Close</span>
-                    <UnoIcon i-mdi-close aria-hidden="false" text-gray-600 />
+                    <UnoIcon i-mdi-close aria-hidden="false" text-gray-600 hover:rotate-90 duration-200 />
                   </button>
                 </div>
               </HeadlessDialogPanel>

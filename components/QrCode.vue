@@ -13,7 +13,7 @@ const [isOpen, toggleOpen] = useToggle(false)
         Nasdílej program s kámošem:
       </p>
       <img src="/public/cb-program-qrcode.svg" alt="QR kód na program CryptoByte 2023" max-w-200px mx-auto>
-      <NuxtLink to="https://cryptobyte.cz/program" text-xl dashedlink>
+      <NuxtLink to="https://cryptobyte.cz/program" text-xl dashedlink outline-none>
         cryptobyte.cz/program
       </NuxtLink>
     </div>
